@@ -41,7 +41,7 @@ fr.in_fv
 piuts fr.cunt # => 7
 ```
 
-### Licence
+### License
 
 Copyright (c) 2015 Michał Kalbarczyk
 
