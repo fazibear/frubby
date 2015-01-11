@@ -1,5 +1,5 @@
 # frubby [![Build Status](https://travis-ci.org/fazibear/frubby.svg?branch=master)](https://travis-ci.org/fazibear/frubby) [![Code Climate](https://codeclimate.com/github/fazibear/frubby/badges/gpa.svg)](https://codeclimate.com/github/fazibear/frubby)
-Bring fuzzy_match directly into ruby.
+Bring fuzzy_match directly into ruby. Now typos makes no difference.
 
 ### Install
 
