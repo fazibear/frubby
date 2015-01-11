@@ -1,3 +1,9 @@
+PATH
+  remote: .
+  specs:
+    frubby (0.1)
+      fuzzy_match
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -7,4 +13,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  fuzzy_match
+  frubby!
