@@ -1,4 +1,4 @@
-# frubby
+# frubby [![Build Status](https://travis-ci.org/fazibear/frubby.svg?branch=master)](https://travis-ci.org/fazibear/frubby)
 Bring fuzzy_match directly into ruby.
 
 ### Install
