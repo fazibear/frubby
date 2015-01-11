@@ -17,26 +17,26 @@ class RespondToMissingTest < Minitest::Test
   end
 
   def test_missing_method_name
-    assert_true respond_to? :smple_method
-    assert_true respond_to? :sample_mthod
-    assert_true respond_to? :sampe_method
-    assert_true respond_to? :sampe_mothod
+    assert_equal true, respond_to?(:smple_method)
+    assert_equal true, respond_to?(:sample_mthod)
+    assert_equal true, respond_to?(:sampe_method)
+    assert_equal true, respond_to?(:sampe_mothod)
   end 
   
   def test_missing_method_name_with_argument
-    assert_true respond_to? :smple_method_with_argmtn
-    assert_true respond_to? :smple_meod_with_argmtn
-    assert_true respond_to? :smple_method_with_argmtn
-    assert_true respond_to? :smple_methd_wth_argmtn
-    assert_true respond_to? :smple_method_with_agmtn
+    assert_equal true, respond_to?(:smple_method_with_argmtn)
+    assert_equal true, respond_to?(:smple_meod_with_argmtn)
+    assert_equal true, respond_to?(:smple_method_with_argmtn)
+    assert_equal true, respond_to?(:smple_methd_wth_argmtn)
+    assert_equal true, respond_to?(:smple_method_with_agmtn)
   end 
   
   def test_missing_module_self_method_name
-    assert_true SampleModule.respond_to? :smple_method
-    assert_true SampleModule.respond_to? :smple_metod
-    assert_true SampleModule.respond_to? :smple_method
-    assert_true SampleModule.respond_to? :smple_ethod
-    assert_true SampleModule.respond_to? :smple_methd
+    assert_equal true, SampleModule.respond_to?(:smple_method)
+    assert_equal true, SampleModule.respond_to?(:smple_metod)
+    assert_equal true, SampleModule.respond_to?(:smple_method)
+    assert_equal true, SampleModule.respond_to?(:smple_ethod)
+    assert_equal true, SampleModule.respond_to?(:smple_methd)
   end
 end
 
