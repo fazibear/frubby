@@ -1,2 +1,2 @@
-# fuzzy_ruby
+# frubby
 Playing with fuzzy_match and method_missing...

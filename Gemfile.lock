@@ -2,11 +2,9 @@ GEM
   remote: https://rubygems.org/
   specs:
     fuzzy_match (2.1.0)
-    methodfinder (2.0.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   fuzzy_match
-  methodfinder

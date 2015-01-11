@@ -1,4 +1,4 @@
-require_relative '../lib/fuzzy_ruby'
+require_relative '../lib/frubby'
 
 class FuzzyRuby
   def initialize
