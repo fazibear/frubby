@@ -4,7 +4,7 @@ Bring fuzzy_match directly into ruby.
 ### Install
 
 ```
-gem install fruby
+gem install frubby
 ```
 
 ### Example
