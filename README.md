@@ -1,10 +1,15 @@
 # frubby
 Bring fuzzy_match directly into ruby.
 
+### Install
+
+```
+gem install fruby
+```
 
 ### Example
 
-```
+```ruby
 require 'frubby'
 
 class FancyTestClass
