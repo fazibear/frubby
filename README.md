@@ -26,7 +26,7 @@ class FancyTestClass
   end
 
   def inc_five
-    @count +=5
+    @count += 5
   end
 
   def count

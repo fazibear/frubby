@@ -11,9 +11,9 @@ module Frubby
     KERNEL_METHODS = Kernel.methods.delete_if {|m| m.match /^[A-Z]/}
 
     def method_missing(method_sym, *args, &block)
-      return if EXCLUDED_METHODS.include? method_sym
+      return super if EXCLUDED_METHODS.include? method_sym
 
-      _methods = (KERNEL_METHODS + methods).flatten
+      _methods = KERNEL_METHODS + methods
       _method = FuzzyMatch.new(_methods).find(method_sym.to_s)
 
       warn "[frubby] method_missing: #{method_sym} -> #{_method}" if $DEBUG
