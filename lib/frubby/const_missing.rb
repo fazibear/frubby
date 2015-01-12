@@ -6,7 +6,7 @@ module Frubby
       
       warn "[frubby] const_missing: #{const} -> #{_constant}" if $DEBUG
 
-      _constant ? const_get(_constant) : super(const)
+      _constant ? const_get(_constant) : super
     end
   end
 end

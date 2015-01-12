@@ -17,7 +17,7 @@ module Frubby
       
       warn "[frubby] respond_to_missing: #{method_name} ~> #{_method}" if $DEBUG
 
-      _method.is_a?(Symbol) ? true : super(method_name, include_private)
+      _method.is_a?(Symbol) ? true : super
     end
   end
 end

@@ -16,9 +16,9 @@ module Frubby
       _methods = (KERNEL_METHODS + methods).flatten
       _method = FuzzyMatch.new(_methods).find(method_sym.to_s)
 
-      warn "[frubby] method_missing: #{method_sym.to_s} -> #{_method.to_s}" if $DEBUG
+      warn "[frubby] method_missing: #{method_sym} -> #{_method}" if $DEBUG
 
-      _method.is_a?(Symbol) ? send(_method.to_s, *args, &block) : super(method_sym, *args, &block)
+      _method.is_a?(Symbol) ? send(_method.to_sym, *args, &block) : super
     end
   end
 end
