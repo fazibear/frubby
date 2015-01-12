@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'frubby'
-  s.version = '0.1'
+  s.version = '0.2'
   s.license = 'MIT'
   s.summary = 'Add color methods to String class'
   s.description = 'Ruby String class extension. Adds methods to set text color, background color and, text effects on ruby console and command line output, using ANSI escape sequences.'
