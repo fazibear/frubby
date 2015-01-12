@@ -1,4 +1,4 @@
-# frubby [![Build Status](https://travis-ci.org/fazibear/frubby.svg?branch=master)](https://travis-ci.org/fazibear/frubby) [![Code Climate](https://codeclimate.com/github/fazibear/frubby/badges/gpa.svg)](https://codeclimate.com/github/fazibear/frubby)
+# frubby [![Gem Version](https://badge.fury.io/rb/frubby.svg)](http://badge.fury.io/rb/frubby) [![Build Status](https://travis-ci.org/fazibear/frubby.svg?branch=master)](https://travis-ci.org/fazibear/frubby) [![Code Climate](https://codeclimate.com/github/fazibear/frubby/badges/gpa.svg)](https://codeclimate.com/github/fazibear/frubby)
 Bring fuzzy_match directly into ruby. Now typos makes no difference.
 
 ### Install
