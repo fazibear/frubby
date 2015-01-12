@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    frubby (0.1)
+    frubby (0.3)
       fuzzy_match
 
 GEM
