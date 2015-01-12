@@ -4,9 +4,9 @@ module Frubby
       _constants = (Object.constants + constants).flatten
       _constant = FuzzyMatch.new(_constants).find(const)
       
-      puts "#{const} => #{_constant}" if $DEBUG
+      warn "[frubby] const_missing: #{const} -> #{_constant}" if $DEBUG
 
-      _constant ? const_get(_constant) : raise('const_missing')
+      _constant ? const_get(_constant) : super(const)
     end
   end
 end
